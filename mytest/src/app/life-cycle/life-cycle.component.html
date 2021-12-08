@@ -1,0 +1,27 @@
+
+
+<!--<div >-->
+<!--    <p #firstpar>Child</p>-->
+<!--    <p>Text1: {{getText}}</p>-->
+<!--    <p>Text2: {{getText2}}</p>-->
+<!--    <ng-content></ng-content>-->
+
+
+<!--</div>-->
+
+
+<h1>Input Text : {{title}}</h1>
+<h4>Child servise:{{myservice.count}}</h4>
+<button (click)="myservice.increase()">Increment</button>
+<button (click)="myservice.decrease()">Decrement</button>
+
+<h4>Child servise uses global:{{myservisGlobal.count}}</h4>
+<button (click)="myservisGlobal.increase()">Increment</button>
+<button (click)="myservisGlobal.decrease()">Decrement</button>
+
+
+<h3>{{myservice.count}}</h3>
+<button (click)="myservice.increase()">Increment</button>
+<button (click)="myservice.decrease()">Decrement</button>
+<button (click)="myservisGlobal.increase()">Increment</button>
+<button (click)="myservisGlobal.decrease()">Decrement</button>

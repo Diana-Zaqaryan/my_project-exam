@@ -1,0 +1,116 @@
+<!--Use attribute directive -->
+<div><h1>******************* Use attribute directive ************************</h1>
+    <h1 myStyle="">Hello</h1>
+    <p></p>
+</div>
+
+
+<!--Use structural directive -->
+<div>
+    <h1>******************* Use structural directive ************************</h1>
+    <p *appMySturturDirectiv="par">Lorem ipsum dolor sit amet.</p>
+    <button (click)="par = !par">Add text</button>
+</div>
+
+
+<hr>
+<hr>
+
+<!--Use filter pipe-->
+<div class="pipe"><h1>******************* Use filter pipe ************************</h1>
+    <input type="text" #inputName placeholder="Name.." [(ngModel)]='myName'>
+    <input type="text" #search placeholder="Search name" [(ngModel)]='searchName'>
+    <button (click)="addName(myName)"> Add Name</button>
+    <ul>
+        <li *ngFor="let name of names| searchPipe: searchName" ngDefaultContro>{{name}}</li>
+    </ul>
+
+</div>
+
+<hr>
+<hr>
+
+<!--Use @Input @Output-->
+<h1>******************* Use @Input @Output ************************</h1>
+<h1>Parent Component</h1>
+<h2>Child send: </h2>
+<ul>
+    <li *ngFor="let text of childMess"> {{text}}</li>
+</ul>
+
+
+<input type="text" placeholder="Send to Child..." #input [(ngModel)]="inptVal">
+<button (click)="sendMess(input.value)">Send to Child</button>
+
+
+<app-child [getMessFromParent]="messToChild" (sendToParnetmess)="getFromChild($event)" >
+
+</app-child>
+
+<hr>
+<hr>
+<hr>
+
+<hr>
+
+<hr>
+<hr>
+<hr>
+
+<hr>
+
+
+<app-http></app-http>
+
+
+
+<mat-slider min="1" max="100" step="1" value="50"></mat-slider>
+<!--<app-life-cycle >-->
+
+<!--</app-life-cycle>-->
+
+
+<!--Amount : <input [(ngModel)] = 'money' type="number">-->
+<!--<select [(ngModel)] = 'valut'>-->
+<!--    <option > AMD</option>-->
+<!--    <option > RUB</option>-->
+<!--    <option > USD </option>-->
+
+<!--</select>-->
+
+<!--Rate: <input type="number" [(ngModel)] = 'rate'>-->
+<!--<p>{{money | changeMoney: valut : rate}}  AMD</p>-->
+
+
+<!--<app-parent ></app-parent>-->
+<!--<app-child></app-child>-->
+
+
+<!--<app-post2 (sendPosts)="getPosts($event)"></app-post2>-->
+<!--<app-post3 *ngFor="let post of posts" [inputText]="post.text" [inputTitle]="post.title"></app-post3>-->
+
+<!--<input type="text" [(ngModel)]="mytext" #input1 >-->
+<!--<input type="text" [(ngModel)]="mytext2" >-->
+<!--<button (click)="addText()">Add Text</button>-->
+<!--<button (click)="addChild()">Add Child</button>-->
+
+<!--<app-life-cycle  #childComp-->
+<!--*ngFor="let text of texts" [getText]="text[1]" [getText2]="text[2]">-->
+<!--<button #contentButton> its life cycle </button>-->
+<!--</app-life-cycle>-->
+
+
+<!--<button (click)="addText()">Add Text</button>-->
+<!--<p [myStyle] = "'brown'">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, similique!</p>-->
+
+
+<!--<h4>Parent service:{{myservisGlobal.count}}</h4>-->
+<!--<button (click)="myservisGlobal.increase()">Increment</button>-->
+<!--<button (click)="myservisGlobal.decrease()">Decrement</button>-->
+
+
+
+
+
+
+

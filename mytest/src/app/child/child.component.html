@@ -1,0 +1,14 @@
+
+
+<h1>Child Component...</h1>
+
+
+<input type="text" #input [(ngModel)]="inputVal">
+
+<button (click)="sendToParent(input.value)">Send to Parnet</button>
+
+<ul>
+    <h3>parent send</h3>
+    <li *ngFor="let text of getMessFromParent">{{text}}</li>
+</ul>
+

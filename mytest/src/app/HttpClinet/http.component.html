@@ -1,0 +1,59 @@
+<div class="container">
+    <h1>Angular HttpClient</h1>
+
+    <div class="card">
+        <div class="form-control">
+            <input type="text" placeholder="Название">
+        </div>
+        <button class="btn">Добавить</button>
+        <button class="btn">Загрузить</button>
+    </div>
+
+    <hr>
+
+    <div class="card">
+        <p>
+            <span class="completed">Название</span>
+            <span>
+        <button class="btn btn-danger">Удалить</button>
+        <button class="btn">Завершить</button>
+      </span>
+        </p>
+    </div>
+
+        <div>
+            <ul>
+                <li *ngFor="let todo of todos$ |async ">{{todo.id}} </li>
+            </ul>
+        </div>
+
+
+    <h1>*********** Use FlatMap **************</h1>
+    <input type="text" id="input1" >
+    <input type="text" id="input2" >
+    <p id="para">Combined value </p>
+
+
+    <h1>*********** Use switchMap **************</h1>
+    <button id="beginBtn">Click</button>
+    <button id="stopBtn" (click)="stop()">Stop</button>
+
+</div>
+
+<hr>
+<hr>
+<hr>
+
+
+<input type="text" [(ngModel)]="name">
+<button id="addBtn" (click)="addName()">add</button>
+
+
+<div  *ngFor="let user of myobj">
+    {{user.name}}
+    <button (click)="deletName(user.id)">Delete</button>
+</div>
+
+
+
+
