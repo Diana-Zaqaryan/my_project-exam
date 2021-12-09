@@ -2,14 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e2786ef-1e7d-41c1-9d09-5ea23667a4ab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Project/src/app/controls/shared/model/Classifier.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Project/src/app/controls/shared/model/Entity.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Project/src/app/controls/shared/model/Project.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/src/app/controls/shared/model/ProjectLocation.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Project/src/app/controls/shared/model/ProjectSectro.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/src/app/controls/shared/model/Status.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Project/src/app/controls/shared/model/SubEntity.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Project/src/app/controls/shared/modules/material.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/src/app/controls/shared/sevices/mainEntity.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/src/app/controls/shared/sevices/subEntity.service.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Project/src/assets/dummy/country.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Project/src/assets/dummy/districts.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/src/assets/dummy/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Project/src/assets/dummy/project.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Project/src/assets/dummy/projectLocation.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Project/src/assets/dummy/sector-project.json" afterDir="false" />
@@ -20,6 +27,10 @@
       <change afterPath="$PROJECT_DIR$/material_test/src/app/mycomp/mycomp.component.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/material_test/src/app/mycomp/mycomp.component.spec.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/material_test/src/app/mycomp/mycomp.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project" beforeDir="false" afterPath="$PROJECT_DIR$/Project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Project/.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/Project/angular.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Project/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Project/package.json" afterDir="false" />
@@ -28,6 +39,8 @@
       <change beforePath="$PROJECT_DIR$/Project/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/main.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/Project/tslint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/material_test" beforeDir="false" afterPath="$PROJECT_DIR$/material_test" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/material_test/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/material_test/angular.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/material_test/e2e/src/app.e2e-spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/material_test/e2e/src/app.e2e-spec.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/material_test/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/material_test/package-lock.json" afterDir="false" />
@@ -41,6 +54,7 @@
       <change beforePath="$PROJECT_DIR$/material_test/src/karma.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/material_test/src/karma.conf.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/material_test/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/material_test/src/main.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/material_test/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/material_test/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mytest/src/app/parent/parent.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/mytest/src/app/parent/parent.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,9 +73,33 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../angular" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Users\diana.zakaryan\Desktop\Project\material_test\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\diana.zakaryan\Desktop\Project\Project\src\app\controls\shared\sevices" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="tsc" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/Project/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="tsc" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.tsc" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -76,7 +114,8 @@
       <workItem from="1638774134203" duration="2592000" />
       <workItem from="1638780466326" duration="29395000" />
       <workItem from="1638941091624" duration="8710000" />
-      <workItem from="1638952671008" duration="15178000" />
+      <workItem from="1638952671008" duration="29593000" />
+      <workItem from="1639040370190" duration="15130000" />
     </task>
     <servers />
   </component>
@@ -92,13 +131,45 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1500" y="147" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1638867504374" />
-    <state x="613" y="284" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1638950295579">
+    <state x="613" y="284" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1639030347244">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="613" y="284" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1638950295579" />
+    <state x="613" y="284" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1639030347244" />
     <state x="565" y="146" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1638954233559">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="565" y="146" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1638954233559" />
+    <state x="640" y="158" key="FileChooserDialogImpl" timestamp="1639057594724">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="158" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1639057594724" />
+    <state width="1887" height="252" key="GridCell.Tab.0.bottom" timestamp="1639058686660">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1887" height="252" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1639058686660" />
+    <state width="1887" height="252" key="GridCell.Tab.0.center" timestamp="1639058686660">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1887" height="252" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1639058686660" />
+    <state width="1887" height="252" key="GridCell.Tab.0.left" timestamp="1639058686660">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1887" height="252" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1639058686660" />
+    <state width="1887" height="252" key="GridCell.Tab.0.right" timestamp="1639058686660">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1887" height="252" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1639058686660" />
+    <state width="746" height="596" key="SwitcherDM" timestamp="1639052594701">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="746" height="596" key="SwitcherDM/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1639052594701" />
+    <state x="0" y="0" width="1319" height="1040" key="find.popup" timestamp="1639057860877">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" width="1319" height="1040" key="find.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1639057860877" />
+    <state x="453" y="0" width="1009" height="1036" key="search.everywhere.popup" timestamp="1639058747316">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="453" y="0" width="1009" height="1036" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1639058747316" />
   </component>
 </project>

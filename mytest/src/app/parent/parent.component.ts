@@ -17,6 +17,7 @@ export interface Product {
 export class ParentComponent {
 	public myMoney = 10000;
 
+	// @ts-ignore
 	public date = new Date();
 	public myStr = 'my pipe';
 	public float = 0.42;
